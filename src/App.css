@@ -1,0 +1,85 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+/* Card container */
+.card {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card question */
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Card answer */
+.card p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* User guess input */
+.card input[type="text"] {
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Submit button */
+.card button {
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Navigation buttons */
+.card button.nav {
+  font-size: 16px;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+/* Shuffle button */
+.card button.shuffle {
+  font-size: 16px;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Mastered cards list */
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
